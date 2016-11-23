@@ -1,0 +1,121 @@
+<!DOCTYPE html>  
+	<head> 
+		<title>Manual HTML</title> 
+		<meta charset="utf-8"> 		 	 
+		<link rel="stylesheet" type="text/css" href="./estilos.css" />
+	</head> 	 
+	<body> 	 
+		<header> 
+		  <h1>Manual HTML</h1> 
+		</header> 		 
+		<nav> 
+			<ul> 
+              <li><a href="index.html">Inicio</a></li><hr> 
+			  <li><a href="formato.html">Formato</a></li><hr> 
+			  <li><a href="titulo.html">Títulos</a></li><hr> 
+			  <li><a href="agrupacion.html">Agrupación</a></li> <hr>
+              <li><a href="elementos.html">Elementos Semánticos de Texto</a></li><hr> 
+              <li><a href="contenido_encajado.html">Contenido encajado (Imágenes)</a></li><hr>
+              <li><a href="simbolos_especiales.html">Símbolos Especiales</a></li><hr>
+              <li><a href="tablas.html">Tablas</a></li><hr>
+              <li><a href="modelos_contenido.html">Modelos de Contenido</a></li><hr>
+			</ul> 
+		</nav> 		 
+		<article> 			 
+			<h1>Elementos Semánticos del texto</h1> 			 
+			<section> 
+				<h2>Elementos - Resaltado</h2> 
+				<p><b>- ITALIC I:</b> Cursiva</p>
+                	<p><i>Esto es un texto en cursiva.</i></p>
+                <p><b>- BOLD B:</b> Negrita</p>
+                	<p><b>Esto es un texto en negrita.</b></p>
+                <p><b>- UNDERLINED U:</b> Subrayado</p>
+                	<p><u>Esto es un texto subrayado.</u></p>
+                 <pre class="pre">
+				Cursiva
+	&lt;p&gt;&lt;i&gt;Esto es un texto en cursiva.&lt;/i&gt;&lt;/p&gt;
+    
+    			Negrita
+	&lt;p&gt;&lt;b&gt;Esto es un texto en negrita.&lt;/b&gt;&lt;/p&gt;
+    
+    			Subrayado
+	&lt;p&gt;&lt;u&gt;Esto es un texto en subrayado.&lt;/u&gt;&lt;/p&gt;
+                 </pre>
+                 <p><b>- STRESS EMPHASIS EM:</b> Recalca parte del texto o le pone énfasis.</p>
+                	<p><em>Esto es un texto con énfasis.</em></p>
+                <p><b>- STRONG:</b> Parte seria o importante.</p>
+                	<p><strong>Esto es un texto remarcado.</strong></p>
+                <p><b>- SMALL:</b> Representa la letra pequeña.</p>
+                	<p><small>Esto es un texto con letra pequeña.</small></p>
+                <p><b>- S:</b> Se usa para tachar lo que ya está obsoleto o ya no vale.</p>
+                	<p><s>Esto es un texto que ya no vale.</s></p>
+                    <pre class="pre">
+				Énfasis
+	&lt;p&gt;&lt;em&gt;Esto es un texto con énfasis.&lt;/em&gt;&lt;/p&gt;
+    
+    			Strong
+	&lt;p&gt;&lt;strong&gt;Esto es un texto remarcado.&lt;/strong&gt;&lt;/p&gt;
+    
+    			Small
+	&lt;p&gt;&lt;small&gt;Esto es un texto con letra pequeña.&lt;/small&gt;&lt;/p&gt;
+    			
+               Tachado
+	&lt;p&gt;&lt;s&gt;Esto es un texto que ya no vale.&lt;/s&gt;&lt;/p&gt;
+                 </pre> 
+                    
+                    
+			</section> 
+			<section> 
+				<h2>Elementos - Salto de línea</h2>
+                <p><b>BREAK: BR</b> Hace un salto de línea.</p>
+                <p><b>WORD BREAK: WBR</b></p>
+				<pre class="pre">
+                Salto de línea
+	&lt;p&gt;Esto es un salto de línea.&lt;/p&gt;&lt;br&gt;
+    
+                </pre> 
+			</section> 			 
+		  <section> 
+				<h2>Elementos - Hiperenlace</h2> 
+				<p><b>ANCHOR: a</b> Hace un salto de línea.</p>
+            <p>- Enlace a URL: <b><i>href</i></b></p>
+              <p>Marca un lugar en el que podría haber un enlace si fuera relevante.</p>
+              <p>Este texto contiene un enlace a la página de Google   <a href="www.google.es">Google</a></p>
+              <pre class="pre">
+                Hiperenlace
+	&lt;p&gt;Este texto contiene un enlace a la página de Google.
+    &lt;a href="www.google.es"&gt;Google&lt;/a&gt;&lt;/p&gt;
+    			</pre>
+                <p>Atributos (si usamos <b><i>href</i></b>)</p>
+                <ul>
+                    	<li>download</li>
+                         -Valor opcional: nombre en destino.<br>
+                        <li>target</li>
+                        - _blank<br>
+                        <li>otros</li>
+                </ul>
+                
+                <h2>Elementos - Hiperenlace interno</h2>
+                <pre class="pre">
+         Identificador de Elemento
+	&lt;elto id="eltoX"&gt;Elemento X&lt;/elto&gt;
+    
+         Referencia a Elemento
+	&lt;a href="#eltoX"&gt;Elemento X&lt;/a&gt;
+    
+         Principio del Documento: #top
+				</pre>
+                
+                <h2>Elementos - Hiperenlace general</h2>
+                <p><b>Referencia desde otro documento: </b>Debo indicar cual es la URL del documento y concatenar a la misma el identificador de ese lugar.</p>
+                
+                
+                
+                
+		  </section> 			 
+		</article> 		 
+		<footer> 
+			<p>&copy; 2016 Víctor Vilches Bello.</p> 
+		</footer> 	 
+	</body> 
+</html> 

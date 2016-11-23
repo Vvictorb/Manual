@@ -1,0 +1,80 @@
+<!DOCTYPE html>  
+	<head> 
+		<title>Manual HTML</title> 
+		<meta charset="utf-8"> 		 	 
+		<link rel="stylesheet" type="text/css" href="./estilos.css" />
+	</head> 	 
+	<body> 	 
+		<header> 
+		  <h1>Manual HTML</h1> 
+		</header> 		 
+		<nav> 
+			<ul> 
+              <li><a href="index.html">Inicio</a></li><hr> 
+			  <li><a href="formato.html">Formato</a></li><hr> 
+			  <li><a href="titulo.html">Títulos</a></li><hr> 
+			  <li><a href="agrupacion.html">Agrupación</a></li> <hr>
+              <li><a href="elementos.html">Elementos Semánticos de Texto</a></li><hr> 
+              <li><a href="contenido_encajado.html">Contenido encajado (Imágenes)</a></li><hr>
+              <li><a href="simbolos_especiales.html">Símbolos Especiales</a></li><hr>
+              <li><a href="tablas.html">Tablas</a></li><hr>
+              <li><a href="modelos_contenido.html">Modelos de Contenido</a></li><hr>
+			</ul> 
+		</nav> 		 
+		<article> 			 
+			<h1>Contenido encajado (Imágenes)</h1> 			 
+			<section> 
+				<h2>Contenido encajado</h2> 
+				<p>- Source : <b><i>src</i></b></p>
+                <p>- Ancho: <b><i>width</i></b></p>
+                <p>- Alto: <b><i>height</i></b></p>
+                <p>- Texto Alternativo: <b><i>alt</i></b></p>
+                 <pre class="pre">
+		&lt;img src="foto.jpg" width="200" height="150" alt="miFoto"&gt;
+                 </pre>                   
+			</section> 
+			<section> 
+				<h2>Tipos de imágenes</h2> 
+				<ul>
+					<li>Bimap estáticos (con y sin pérdida)<br>
+					- PNG, GIF, JPG.
+					</li>
+					<li>Documentos vectoriales<br>
+					- SVG.
+					</li>
+					<li>Animados <br>
+					- APNG, GIF.
+					</li>
+					 <li>Otros <br>
+					- PDF,MNG.
+					</li>
+				</ul>              
+			</section> 
+			<section> 
+				<h2>Mapas de images</h2>
+				<pre class="pre">
+		&lt;img usemap="#mapa"&gt;
+		&lt;map name="mapa"&gt;
+			&lt;area&gt;
+			- shape: default, rect, circle, poly.
+			- coords: coordenadas separadas por comas
+			– href: URL asociada - nohref
+			– alt: texto alternativo (obligatorio si href)
+			– download
+			– target
+                </pre> 
+			</section> 			 
+		  <section> 
+				<h2>Mapas de images - Coordenadas</h2>
+                <ul>
+                    	<li>rect: x-izq, y-sup, x-dcha, y-inf</li>
+                        <li>circle: x-centro, y-centro, radio</li>
+                        <li>poly: x1, y1, x2, y2,..., xN, yN</li>
+                </ul>
+		  </section> 			 
+		</article> 		 
+		<footer> 
+			<p>&copy; 2016 Víctor Vilches Bello.</p> 
+		</footer> 	 
+	</body> 
+</html> 
